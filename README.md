@@ -8,7 +8,7 @@ A Django-based web application that allows users to analyze stock data with real
 
 ## Video Walkthrough
 
-
+Link to the project video walkthrough: https://youtu.be/BTpv1CG35uk?si=rIvfHbRwXYtDxK-x
 
 ## Authors
 
