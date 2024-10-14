@@ -16,6 +16,9 @@ api_key = config('api_key')
 def homeView(request):
     return render(request, "home.html")
 
+def about(request):
+    return render(request, 'about.html')
+
 # Getting Started page - A dropdown list is displayed, and user can choose any stock ticker.
 def select_stock_ticker(request):
     if request.method == 'POST':
