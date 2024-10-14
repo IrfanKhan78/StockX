@@ -1,0 +1,80 @@
+body {
+    background-color: #0C0C0C;
+    padding: 60px 25px;
+    color: whitesmoke;
+}
+
+.top-heading {
+    text-align: center;
+    font-weight: 700;
+    font-size: 3rem;
+    padding: 20px;
+}
+
+.gainer-container, .loser-container {
+    margin: 4rem 3rem;
+    border-radius: 10px;
+}
+
+.gain-card-body, .loss-card-body {
+    padding: 20px;
+    text-align: center;
+}
+
+.top-gainers-cards .card {
+    border: 0.5px solid #2ecc71;
+    margin-bottom: 20px;
+    background-color: #1a1a1a;
+}
+
+.top-gainers-cards .card:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.top-losers-cards .card {
+    border: 0.5px solid #e74c3c;;
+    margin-bottom: 20px;
+    background-color: #1a1a1a;
+}
+
+.top-losers-cards .card:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.gain-card-text, .loss-card-text {
+    font-weight: lighter;
+    color: whitesmoke;
+}
+
+.gain-card-title, .loss-card-title {
+    font-weight: bold;
+    color: whitesmoke;
+}
+
+.latest-date {
+    text-align: center;
+    font-weight: lighter;
+    padding: 20px;
+}
+
+.last-updated {
+    text-align: right; 
+    font-size: 14px; 
+    color: whitesmoke; 
+    margin-top: 20px; 
+    letter-spacing: 0.5px;
+}
+
+.last-updated strong {
+    color: #ffffff; 
+    font-weight: 600; 
+}
+
+.last-updated .date-time {
+    color: #f2f2f2; 
+    font-weight: 400; 
+}

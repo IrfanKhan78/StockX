@@ -1,0 +1,133 @@
+
+.container-hourly {
+    margin: 3rem 3rem;
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+.container-weekly {
+    margin: 3rem 3rem;
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+.container-yearly {
+    margin: 3rem 3rem;
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+.high-card {
+    border-color: #5cb85c;
+    width: 300px;
+}
+
+.low-card {
+    border-color: #d9534f;
+    width: 300px;
+}
+
+.stock-data {
+    font-weight: 700;
+    font-size: 3rem;
+}
+
+.card-footer {
+    text-align: center;
+    /* background-color: #EEEEEE; */
+    /* opacity: 0.75; */
+}
+
+.stock-details-link {
+    margin: 4rem 4rem;
+}
+
+.chart-heading {
+    text-align: center;
+    font-weight: lighter;
+    font-size: 3rem;
+    margin-bottom: 15px;
+}
+
+.current-stock-heading {
+    text-align: center;
+    font-weight: lighter;
+    font-size: 3rem;
+    padding-bottom: 20px;
+}
+
+.latest-date-p {
+    text-align: center;
+    font-weight: lighter;
+    padding: 20px;
+}
+
+.low-card, .high-card {
+    background-color: #1a1a1a;
+    border-radius: 10px;
+    border: 1px solid #e74c3c;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.high-card {
+    border: 1px solid #2ecc71;
+}
+
+.stock-title {
+    font-size: 16px;
+    color: whitesmoke;
+}
+
+.stock-data {
+    font-size: 30px;
+    font-weight: bold;
+    color: whitesmoke;
+}
+
+.card-footer {
+    font-size: 12px; 
+    color: #d3d3d3;
+    margin-top: 5px; 
+}
+
+.last-refreshed {
+    text-align: right; 
+    font-size: 14px; 
+    color: whitesmoke; 
+    margin-top: 20px; 
+    letter-spacing: 0.5px;
+}
+
+.last-refreshed strong {
+    color: #ffffff; 
+    font-weight: 600; 
+}
+
+.last-refreshed .date-time {
+    color: #f2f2f2; 
+    font-weight: 400; 
+}
+
+.back-details-button {
+    width: 250px;
+    margin: 3em 0;
+}
+
+/* .stock-details-btn {
+    font-size: 40px;
+    color:#d9534f; 
+} */
+
+.stock-details-btn {
+    font-size: 40px;  
+    color: #ff6666;      
+    cursor: pointer;  
+    transition: transform 0.3s ease; 
+}
+
+.stock-details-btn:hover {
+    transform: scale(1.4);
+    color: red;
+}
+

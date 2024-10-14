@@ -1,0 +1,54 @@
+{% load static %}
+
+<html lang="en">
+    
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StockX</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="{% static 'css/styles.css' %}">
+  </head>
+
+<body>
+
+    {% include 'navbar.html' %}
+
+    <!-- Home Page -->
+
+    <!-- Website Overview -->
+    <section id="overview">
+      <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+          <div class="col-10 col-sm-8 col-lg-6">
+            <img src="static/images/stock-home-image.jpg" class="d-block mx-lg-auto img-fluid home-image" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
+          </div>
+          <div class="col-lg-6">
+            <h1 class="display-5 fw-bold lh-1 mb-3">Real-Time Stock Market Analysis and Insights</h1>
+            <p class="lead">This platform provides real-time stock market data, advanced technical analysis tools, 
+              and interactive charts to help you make informed investment decisions. 
+              Whether you’re a seasoned trader or just getting started, the site offers comprehensive insights to navigate 
+              the stock market with confidence.</p>
+            <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+              <button type="button" class="btn btn-primary btn-md px-4 me-md-2">
+                <a href="getting-started" class="getting-started-link">Get Started</a>               
+              </button>
+              <button type="button" class="btn btn-dark btn-md px-4 me-md-2">
+                <a href="{% url 'top_stock_gainer_loser' %}" class="top-stock-link">Top Stock Gainers & Losers</a>               
+              </button>
+            </div>
+          </div>
+        </div>
+    </section>
+
+      <hr>
+
+      {% comment %} {% include 'form.html' %} {% endcomment %}
+
+      {% include 'features.html' %}
+
+
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    
+</body>
+
+</html>

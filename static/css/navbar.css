@@ -1,0 +1,13 @@
+/* Navbar section styling */
+nav {
+    padding: 50px 30px;
+}
+
+.nav-link {
+    color: whitesmoke;
+}
+
+.web-name {
+    color: whitesmoke;
+    font-weight: bolder;
+}

@@ -1,0 +1,60 @@
+
+.stock-container {
+    margin: 4rem 3rem;
+    padding: 3rem;
+    border-radius: 10px;
+}
+
+.stock-heading {
+    text-align: center;
+    font-weight: 700;
+    font-size: 3rem;
+    padding: 20px;
+}
+
+.stock-h {
+    text-align: center;
+    font-weight: lighter;
+}
+
+.stock-link {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.stock-link:hover {
+    color: #0C0C0C;
+}
+
+.back-button {
+    width: 250px;
+}
+
+.analyze-button {
+    width: 250px;
+}
+
+.card-text strong {
+    font-style: italic;
+    font-size: medium;
+    color: whitesmoke;
+}
+
+.card-text {
+    font-weight: lighter;
+    color: whitesmoke;
+}
+
+.card {
+    background-color: #0C0C0C;
+    color: whitesmoke;
+    border-color: whitesmoke;
+}
+
+.card-title {
+    text-align: center;
+}
+
+.stock-title {
+    padding-bottom: 10px;
+}

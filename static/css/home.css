@@ -1,0 +1,60 @@
+body {
+    background-color: #0C0C0C;
+    padding: 60px 25px;
+    color: whitesmoke;
+}
+
+/* Home Page section styling */
+.home-image {
+    border-radius: 10px;
+    /* box-shadow: 1px 1px 1px 1px whitesmoke; */
+}
+
+h1 {
+    color: whitesmoke;
+}
+
+button {
+    color: whitesmoke;
+}
+
+.getting-started-link {
+    color: whitesmoke;
+}
+
+.getting-started-link:link {
+    text-decoration: none;
+}
+
+a .top-stock-link {
+    color: whitesmoke;
+}
+
+
+.top-stock-link:link {
+    text-decoration: none;
+}
+
+/* Feature Section styling */
+
+.feature-img {
+    width: 1.5em;
+    height: 1.5em;
+    border-radius: 10px;
+    /* box-shadow: 0.5px 0.5px 0.5px 0.5px whitesmoke; */
+}
+
+.feature-p {
+    font-weight: lighter;
+}
+
+.fs-2 {
+    font-weight: bolder;
+}
+
+.feature-heading {
+    text-align: center;
+    font-weight: 700;
+    font-size: 3rem;
+    padding: 20px;
+}
